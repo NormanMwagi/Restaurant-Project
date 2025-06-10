@@ -1,0 +1,39 @@
+body{
+    background-color: burlywood;
+}
+header{
+    background-color: rgb(255, 222, 115);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+nav {
+  font-family: "Yusei Magic", sans-serif;
+  display: flex;
+  gap: 20px; /* Adds spacing between buttons */
+  justify-content: center;
+}
+.btn {
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #fcd66f;
+}
+img{
+    width: 550px;
+    height: 400px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
