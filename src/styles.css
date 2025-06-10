@@ -11,7 +11,7 @@ header{
 nav {
   font-family: "Yusei Magic", sans-serif;
   display: flex;
-  gap: 20px; /* Adds spacing between buttons */
+  gap: 40px;
   justify-content: center;
 }
 .btn {
